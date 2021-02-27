@@ -1,0 +1,28 @@
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }   
+}
+
+.js-weather{width: 100%;}
+.js-weather p{text-align: center; color: #fff;  margin-top:100px; }
+
+.js-clock{width: 100%; height: 100%;}
+.js-clock .js-title{text-align: center;font-size: 100px; text-shadow: #000 1px 1px 15px;color: #fff; margin-top: -35px;}
+
+.form, .greetings{display: none; text-align: center;}
+input{width:350px; height:30px; margin:10px 0; box-shadow: #000 1px 1px 15px; border: 0; padding: 5px 15px;}
+input:focus{outline:0}
+.greetings{color: #fff; text-shadow: #000 1px 1px 15px; margin-top:-50px; font-size: 30px;}
+
+.show{display: block;}
+.bg{position: absolute; width: 100%; height: 100%; top:0; left: 0;z-index: -100; animation: fadeIn 0.5s linear;}
+
+.js-toDoList{width:380px; margin: 0 auto; padding: 0;}
+.js-toDoList li{list-style: none; color: #fff; text-shadow: #000 1px 1px 50px; font-size: 20px;}
+.js-toDoList li span{line-height: 0; vertical-align: middle;} 
+.js-toDoList li button{background: #fff; color: #fd8f00; border:1px solid #fd8f00;font-size: 5px; padding: 3px 5px; margin-left: 10px;}
+.js-toDoList li button:focus{outline:0;}
+.js-toDoList li button:hover{background: #f3f3f3;}
